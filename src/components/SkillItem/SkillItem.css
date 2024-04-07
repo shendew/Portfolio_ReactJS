@@ -1,0 +1,45 @@
+.SkillitemContainer{
+    height:12rem;
+    width: 12rem;
+    /* border: 1px solid rgb(248, 248, 248); */
+    border-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* background-color: rgb(47, 47, 59); */
+    background-color: #20202075;
+    padding: 0.5rem;
+}
+
+.skillIcon{
+    width: 40%;
+}
+
+.skillTitle{
+    font-size: 1.5rem;
+}
+
+
+
+
+@media all and (max-width:768px) {
+    .SkillitemContainer{
+        height:7rem;
+        width: 40%;
+        border-radius: 1.2rem;
+        margin-bottom: 0.6rem;
+        margin-top: 0rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+
+    .skillTitle{
+        font-size: 0.8rem;
+    }
+}
