@@ -20,8 +20,8 @@
 }
 
 .projectLogo{
-    height:15rem;
-    width: 10rem;
+    /* height:15rem; */
+    width: 18rem;
     object-fit: cover;
     /* background-color: aqua; */
 }
