@@ -122,7 +122,11 @@ function Contact() {
               <img src={Facebook} className="socialSingleIcons" onClick={(e) => {e.preventDefault(); window.open('http://thedevsl.com/Portfolio.pdf','_blank','noopener,noreferrer');}}/>
             </Link>
           </div>
+          
         </div>
+      </div>
+      <div className="allrightsdiv">
+      <span className="allrights">Copyright © 2024 Thedevsl.</span>
       </div>
       <ToastContainer />
     </section>
