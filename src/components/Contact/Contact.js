@@ -95,16 +95,16 @@ function Contact() {
           <input id="submitBTN" type="submit" className="contactSend" value="Send Message" />
         </form>
         <div className="socialsection">
-          <span className="socialTitle">Way to contact</span>
-          <div className="number">
+          <span className="socialTitle th">Way to contact</span>
+          <div className="number tt">
             <FontAwesomeIcon icon={faPhone} className="contactIcons" />{" "}
             <span>Phone : +94764247796</span>
           </div>
-          <div className="email">
+          <div className="email tt">
             <FontAwesomeIcon icon={faEnvelope} className="contactIcons" />
             <span>Email : dev.shehara@gmail.com</span>
           </div>
-          <div className="location">
+          <div className="location tt">
             <FontAwesomeIcon icon={faLocation} className="contactIcons" />
             <span>Location : Kegalle,Sri-Lanka</span>
           </div>

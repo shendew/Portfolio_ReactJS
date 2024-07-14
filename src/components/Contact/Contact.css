@@ -108,7 +108,7 @@
         height: fit-content;
 
         width: 90vw;
-        max-width: 90rem;
+        /* max-width: 90rem; */
         margin: 0 auto;
         padding-top: 5rem;
         
@@ -129,17 +129,28 @@
     }
 
     .socialsection{
-        height: 50vh;
+        /* height: 50vh; */
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin: auto;
         padding: 2rem;
+        font-size: 0.8rem;
         
     }
     .form{
-        height: 45vh;
+        height: 50vh;
         margin-bottom: 2rem;
        
+    }
+    .tt{
+        width: 100%;
+        /* background-color: #7F9F80; */
+        margin-bottom: -5rem;
+    }
+    
+
+    .socialIcons{
+        margin-top: 2rem;
     }
 }

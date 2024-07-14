@@ -25,6 +25,10 @@
     object-fit: cover;
     /* background-color: aqua; */
 }
+.pTitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 
 .buttonLay{
     width: 20rem;

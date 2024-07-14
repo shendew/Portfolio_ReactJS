@@ -5,13 +5,20 @@ import { Link } from 'react-scroll'
 
 
 function ProjectItem({pName,pImg,pDesc,pLive,pSource}) {
+  
   return (
     <div className='itemContainer'>
       <img src={pImg} alt='logo' className='projectLogo'/>
-      <span>{pName}</span>
+      <span className='pTitle'>{pName}</span>
       <div className='buttonLay'>
-      <Link><button className='sourceBtn' onClick={(e) => {e.preventDefault(); window.open({pSource},'_blank','noopener,noreferrer');}}>Source Code</button></Link>
-      <Link><button className='demoBtn'  onClick={(e) => {e.preventDefault(); window.open({pLive},'_blank','noopener,noreferrer');}}>Live Demo</button></Link>
+      <button className='sourceBtn' onClick={(e) => {
+        e.preventDefault(); window.open(pSource,'_blank');
+        }}>Source Code</button>
+
+      <button className='demoBtn'  onClick={(e) => {
+        e.preventDefault(); window.open(pLive,'_blank','noopener,noreferrer');
+        // alert(pLive); 
+        }}>Live Demo</button>
       </div>
     </div>
   )
