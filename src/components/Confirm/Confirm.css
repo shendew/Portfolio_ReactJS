@@ -47,6 +47,15 @@ flex-direction: column;
     margin-left: 4rem;
     margin-right: 5rem;
 }
+
+.inputLongItem{
+    display: flex;
+    flex-direction: column;
+    width: 54svw;
+    margin-left: 4rem;
+    margin-right: 5rem;
+}
+
 .inputItem.multiline{
     display: flex;
     flex-direction: column;
@@ -144,6 +153,13 @@ flex-direction: column;
             justify-content: space-between;
         }
         .inputItem{
+            display: flex;
+            flex-direction: column;
+            width: 80svw;
+            margin-left: 0rem;
+            margin-right: 0rem;
+        }
+        .inputLongItem{
             display: flex;
             flex-direction: column;
             width: 80svw;

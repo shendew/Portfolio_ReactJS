@@ -1,0 +1,142 @@
+.rateContainer{
+    display: flex;
+    height: 100svh;
+    align-items: center;
+    justify-content: center;
+    background-color: #124076;
+    flex-direction: column;
+}
+.rateLogo{
+ height: 5rem;
+ width: auto;
+}
+.middleContainer{
+    height: 70svh;
+    width: 50svw;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.rateTitle{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.rateInputs{
+    width: 77%;
+    padding: 0.5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+.rateMultiInputs{
+    width: 77%;
+    display: flex;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.doubleRate{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.starPanel{
+    width: 77%;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    /* align-self: flex-start; */
+}
+.multi{
+   
+    padding: 0.7rem;
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color: grey; */
+    /* border-radius: 1rem; */
+    /* margin: 1rem; */
+    /* text-decoration: none; */
+}
+
+
+@media all and (max-width:768px) {
+    .rateContainer{
+        display: flex;
+        height: max-content;
+        align-items: center;
+        justify-content: center;
+        background-color: #124076;
+    }
+    .middleContainer{
+        height: max-content;
+        width: 80svw;
+        border-radius: 1rem;
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: 1rem; */
+        margin-bottom: 2rem;
+    }
+    .rateTitle{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    .rateInputs{
+        width: 90%;
+        padding: 0.5rem;
+        border-width: 2px;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 1rem;
+        margin: 0.6rem;
+        text-decoration: none;
+    }
+    .rateMultiInputs{
+        width: 90%;
+        display: flex;
+        border-width: 2px;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .doubleRate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .starPanel{
+        width: 77%;
+        padding: 1rem;
+        font-weight: 600;
+        font-size: 1.1rem;
+        /* align-self: flex-start; */
+    }
+    .multi{
+       
+        padding: 0.7rem;
+        /* border-width: 2px; */
+        /* border-style: solid; */
+        /* border-color: grey; */
+        /* border-radius: 1rem; */
+        /* margin: 1rem; */
+        /* text-decoration: none; */
+    }
+}

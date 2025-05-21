@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import "./Contact.css";
 import TextField from "@mui/material/TextField";
 import { Link } from "react-scroll";
+import { Link as Link2 } from "react-router-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHippo,
@@ -102,7 +104,7 @@ function Contact() {
           </div>
           <div className="email tt">
             <FontAwesomeIcon icon={faEnvelope} className="contactIcons" />
-            <span>Email : dev.shehara@gmail.com</span>
+            <span>Email : thedevsl@outlook.com</span>
           </div>
           <div className="location tt">
             <FontAwesomeIcon icon={faLocation} className="contactIcons" />
@@ -127,6 +129,11 @@ function Contact() {
       </div>
       <div className="allrightsdiv">
       <span className="allrights">Copyright © 2024 Thedevsl.</span>
+      </div>
+      <div style={{display:'flex',alignContent:'center',justifyContent:'center',textDecoration:'none'}}>
+        <Link2 to="privacy" style={{ textDecoration: 'none' ,color:'white',fontSize:'0.7rem'}}>Privacy Policy</Link2> - 
+        <Link2 to="terms" style={{ textDecoration: 'none' ,color:'white',fontSize:'0.7rem'}}>Terms and Conditions</Link2> - 
+        <Link2 to="refundpolicy" style={{ textDecoration: 'none' ,color:'white',fontSize:'0.7rem'}}>Refund Policy</Link2>
       </div>
       <ToastContainer />
     </section>

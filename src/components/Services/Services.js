@@ -47,18 +47,7 @@ const Services = () => {
                 }
             ]
         },
-        {
-            Title:"Mobile Pack 2",
-            Price:10000,
-            Features:[
-                {
-                    ftitle:"Three page",
-                },
-                {
-                    ftitle:"Landing,Contact,About"
-                }
-            ]
-        }
+        
     ]
 
   return (

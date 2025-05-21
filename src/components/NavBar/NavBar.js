@@ -66,7 +66,7 @@ function NavBar() {
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={closeNavbar}>Home</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={closeNavbar}>Skills</Link> 
             <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={closeNavbar}>Projects</Link>      
-            <Link activeClass='active' to='services' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={closeNavbar}>Services</Link>      
+            {/* <Link activeClass='active' to='services' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={closeNavbar}>Services</Link>       */}
             <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={closeNavbar}>About me</Link>
         </div>
         <button className='desktopMenuBtn' onClick={()=>{document.getElementById("contact").scrollIntoView({behavior:'smooth'});}}>
